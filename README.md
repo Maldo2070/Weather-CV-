@@ -30,10 +30,10 @@ pip install requests pandas
 Replace the placeholder API key in the script with your own from OpenWeatherMap.
 API_KEY = 'your_openweathermap_api_key'
 
-4. Run the Script
+### 4. Run the Script
 python your_script_name.py
 
-5. Output
+### 5. Output
 A file named weather_data.csv will be created in your working directory containing:
 
 City
@@ -43,6 +43,6 @@ Humidity
 Wind speed
 Comfort index
 
-Notes
+### Notes
 The script only uses 3 sample cities but you can add more in the CITIES list.
 Invalid API key or city names will be caught and printed, and those entries will be skipped.
